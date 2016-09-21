@@ -10,4 +10,8 @@ body {
   font-family: Helvetica, Arial;
   color: white;
   background: #15B7B9;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
