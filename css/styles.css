@@ -20,8 +20,8 @@ body {
 }
 
 ::selection {
-  background: #bbb; /* WebKit/Blink Browsers */
+  background: #fff; /* WebKit/Blink Browsers */
 }
 ::-moz-selection {
-  background: #bbb; /* Gecko Browsers */
+  background: #fff; /* Gecko Browsers */
 }
