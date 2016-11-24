@@ -7,7 +7,8 @@
 }*/
 
 body {
-  font-family: Helvetica, Arial;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
   color: white;
   background: #111;
   margin: 0;
@@ -16,4 +17,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+::selection {
+  background: #bbb; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #bbb; /* Gecko Browsers */
 }
